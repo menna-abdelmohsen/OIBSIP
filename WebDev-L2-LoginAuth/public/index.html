@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login Demo</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="card"><h1>Secure Area</h1><p class="sub">Register, log in, then open the protected page</p>
+<div class="tabs"><button type="button" id="tl" class="on">Log in</button><button type="button" id="tr">Register</button></div>
+<form id="form" novalidate><label for="u">Username</label><input id="u" autocomplete="username" maxlength="20">
+<label for="p">Password</label><input id="p" type="password" autocomplete="current-password">
+<button type="submit" id="go">Log in</button></form><div id="msg" class="msg" role="alert"></div></main>
+<script src="/app.js"></script></body></html>

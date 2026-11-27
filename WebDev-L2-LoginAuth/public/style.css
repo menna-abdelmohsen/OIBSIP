@@ -1,0 +1,19 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;background:linear-gradient(135deg,#1e3a8a,#6366f1);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1e293b}
+.card{background:#fff;width:100%;max-width:400px;border-radius:16px;padding:30px 26px;box-shadow:0 12px 32px rgba(0,0,0,.28)}
+h1{text-align:center;color:#1e3a8a;margin-bottom:6px;font-size:1.6rem}
+.sub{text-align:center;color:#64748b;margin-bottom:18px;font-size:.95rem}
+.tabs{display:flex;gap:6px;margin-bottom:12px}
+.tabs button{flex:1;background:#e2e8f0;color:#334155}
+.tabs button.on{background:#1e3a8a;color:#fff}
+label{display:block;font-weight:600;margin:12px 0 5px}
+input{width:100%;padding:12px;font-size:1rem;border:2px solid #cbd5e1;border-radius:8px}
+input:focus{outline:none;border-color:#6366f1}
+button{border:0;border-radius:8px;padding:12px;font-size:1rem;font-weight:700;cursor:pointer;background:#1e3a8a;color:#fff}
+form button{width:100%;margin-top:18px}
+.msg{min-height:1.3em;margin-top:10px;font-size:.92rem;text-align:center}
+.msg.err{color:#dc2626}.msg.ok{color:#16a34a}
+.hidden{display:none}
+.welcome{text-align:center}
+.welcome p{margin:12px 0 20px;color:#475569}
+.badge{display:inline-block;background:#dcfce7;color:#166534;padding:4px 12px;border-radius:16px;font-size:.85rem;font-weight:600}
