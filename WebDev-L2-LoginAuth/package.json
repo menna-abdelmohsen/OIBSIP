@@ -1,0 +1,1 @@
+{"name":"oibsip-login-auth","version":"1.0.0","description":"Small login/registration demo with hashed passwords and a JSON store","scripts":{"start":"node server.js"},"license":"MIT"}
